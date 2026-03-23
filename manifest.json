@@ -1,0 +1,20 @@
+{
+  "name": "DA Game Guide",
+  "short_name": "DA Guide",
+  "start_url": "/da-game-guide/",
+  "display": "standalone",
+  "background_color": "#06060c",
+  "theme_color": "#06060c",
+  "icons": [
+    {
+      "src": "/da-game-guide/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/da-game-guide/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
