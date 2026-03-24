@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="DA Guide" />
+    <meta name="theme-color" content="#06060c" />
+    <link rel="manifest" href="/da-game-guide/manifest.json" />
+    <link rel="apple-touch-icon" href="/da-game-guide/icon-192.png" />
+    <title>DA Game Guide</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+      body { background: #06060c; overflow-x: hidden; padding-top: env(safe-area-inset-top); padding-left: env(safe-area-inset-left); padding-right: env(safe-area-inset-right); padding-bottom: env(safe-area-inset-bottom); }
+    </style>
+    <script type="module" crossorigin src="/da-game-guide/assets/index-HI88tuuX.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/da-game-guide/sw.js');
+        });
+      }
+    </script>
+  </body>
+</html>
